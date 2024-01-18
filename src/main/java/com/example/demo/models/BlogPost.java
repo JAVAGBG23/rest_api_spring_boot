@@ -42,4 +42,16 @@ public class BlogPost {
     public Date getCreated_at() {
         return created_at;
     }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+
+    public void setPostedBy(String postedBy) {
+        this.postedBy = postedBy;
+    }
 }
